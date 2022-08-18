@@ -1,5 +1,5 @@
 import './styles/main.css';
-import joke from './joke.js';
+// import joke from './joke.js';
 
 // const jokes = document.querySelector('.joke');
 // jokes.innerHTML = joke();
@@ -22,10 +22,10 @@ const todoArr = [
     Completed: 'false',
     Index: 2,
   },
-]
+];
 
 function showTask() {
-  for(let i = 0; i < todoArr.length; i+=1) {
+  for (let i = 0; i < todoArr.length; i += 1) {
     todo.innerHTML += ` <div class="tasks">
     <input class="check" type="checkbox">
     <p class="txt">${todoArr[i].Description}</p>

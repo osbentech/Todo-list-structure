@@ -116,17 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.css */ \"./src/styles/main.css\");\n/* harmony import */ var _joke_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./joke.js */ \"./src/joke.js\");\n\r\n\r\n\r\n// const jokes = document.querySelector('.joke');\r\n// jokes.innerHTML = joke();\r\n\r\nconst todo = document.querySelector('.todo');\r\n\r\nconst todoArr = [\r\n  {\r\n    Description: 'ironing',\r\n    Completed: 'false',\r\n    Index: 0,\r\n  },\r\n  {\r\n    Description: 'washing',\r\n    Completed: 'false',\r\n    Index: 1,\r\n  },\r\n  {\r\n    Description: 'cooking',\r\n    Completed: 'false',\r\n    Index: 2,\r\n  },\r\n]\r\n\r\nfunction showTask() {\r\n  for(let i = 0; i < todoArr.length; i+=1) {\r\n    todo.innerHTML += ` <div class=\"tasks\">\r\n    <input class=\"check\" type=\"checkbox\">\r\n    <p class=\"txt\">${todoArr[i].Description}</p>\r\n    <button class=\"remove-btn\">Remove</button>\r\n  </div> `;\r\n  }\r\n}\r\n\r\nshowTask();\r\n\n\n//# sourceURL=webpack://my-webpack/./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/joke.js":
-/*!*********************!*\
-  !*** ./src/joke.js ***!
-  \*********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction joke() {\r\n  return \"I don't trust stairs. there are always up to something.\";\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (joke);\n\n//# sourceURL=webpack://my-webpack/./src/joke.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.css */ \"./src/styles/main.css\");\n\r\n// import joke from './joke.js';\r\n\r\n// const jokes = document.querySelector('.joke');\r\n// jokes.innerHTML = joke();\r\n\r\nconst todo = document.querySelector('.todo');\r\n\r\nconst todoArr = [\r\n  {\r\n    Description: 'ironing',\r\n    Completed: 'false',\r\n    Index: 0,\r\n  },\r\n  {\r\n    Description: 'washing',\r\n    Completed: 'false',\r\n    Index: 1,\r\n  },\r\n  {\r\n    Description: 'cooking',\r\n    Completed: 'false',\r\n    Index: 2,\r\n  },\r\n];\r\n\r\nfunction showTask() {\r\n  for (let i = 0; i < todoArr.length; i += 1) {\r\n    todo.innerHTML += ` <div class=\"tasks\">\r\n    <input class=\"check\" type=\"checkbox\">\r\n    <p class=\"txt\">${todoArr[i].Description}</p>\r\n    <button class=\"remove-btn\">Remove</button>\r\n  </div> `;\r\n  }\r\n}\r\n\r\nshowTask();\r\n\n\n//# sourceURL=webpack://my-webpack/./src/index.js?");
 
 /***/ })
 
