@@ -13,7 +13,7 @@ To get a local copy up and running follow these simple steps.
 - Open the terminal on your computer
 - Navigate through directories using [change directory (cd)](https://www.howtogeek.com/659411/how-to-change-directories-in-command-prompt-on-windows-10) command to where you want to clone the repository.
 - **Type the following lists of commands and press ENTER after each command:**
-  - git clone https://github.com/MarcoOquendoC/toDoList
+  - git clone https://github.com/osbentech/Todo-list-structure.git
 - *the terminal will send to you information about your download.*
 - *Now get into the new directory*
   - cd toDoList
