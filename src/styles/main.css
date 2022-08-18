@@ -32,6 +32,14 @@ body {
   margin: 0 10px;
 }
 
-.navside:hover {
+.home:hover {
+  color: blue;
+}
+
+.contact:hover {
+  color: blue;
+}
+
+.support:hover {
   color: blue;
 }
